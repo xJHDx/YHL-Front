@@ -1,0 +1,180 @@
+<h1>{{ titulo }}</h1>
+
+<div class="container-fluid px-4">
+  <div class="row">
+    <div class="col-xl-3 col-md-6">
+      <div class="card bg-primary text-white mb-4">
+        <div class="card-body">Primary Card</div>
+        <div
+          class="card-footer d-flex align-items-center justify-content-between"
+        >
+          <a class="small text-white stretched-link" href="#">View Details</a>
+          <div class="small text-white">
+            <svg
+              class="svg-inline--fa fa-angle-right fa-w-8"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="angle-right"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 512"
+              data-fa-i2svg=""
+            >
+              <path
+                fill="currentColor"
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+              ></path></svg
+            ><!-- <i class="fas fa-angle-right"></i> Font Awesome fontawesome.com -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6">
+      <div class="card bg-warning text-white mb-4">
+        <div class="card-body">Warning Card</div>
+        <div
+          class="card-footer d-flex align-items-center justify-content-between"
+        >
+          <a class="small text-white stretched-link" href="#">View Details</a>
+          <div class="small text-white">
+            <svg
+              class="svg-inline--fa fa-angle-right fa-w-8"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="angle-right"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 512"
+              data-fa-i2svg=""
+            >
+              <path
+                fill="currentColor"
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+              ></path></svg
+            ><!-- <i class="fas fa-angle-right"></i> Font Awesome fontawesome.com -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6">
+      <div class="card bg-success text-white mb-4">
+        <div class="card-body">Success Card</div>
+        <div
+          class="card-footer d-flex align-items-center justify-content-between"
+        >
+          <a class="small text-white stretched-link" href="#">View Details</a>
+          <div class="small text-white">
+            <svg
+              class="svg-inline--fa fa-angle-right fa-w-8"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="angle-right"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 512"
+              data-fa-i2svg=""
+            >
+              <path
+                fill="currentColor"
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+              ></path></svg
+            ><!-- <i class="fas fa-angle-right"></i> Font Awesome fontawesome.com -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6">
+      <div class="card bg-danger text-white mb-4">
+        <div class="card-body">Danger Card</div>
+        <div
+          class="card-footer d-flex align-items-center justify-content-between"
+        >
+          <a class="small text-white stretched-link" href="#">View Details</a>
+          <div class="small text-white">
+            <svg
+              class="svg-inline--fa fa-angle-right fa-w-8"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="angle-right"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 512"
+              data-fa-i2svg=""
+            >
+              <path
+                fill="currentColor"
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+              ></path></svg
+            ><!-- <i class="fas fa-angle-right"></i> Font Awesome fontawesome.com -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="canvas">
+  <div class="radio">
+    <canvas
+      baseChart
+      [datasets]="radarChartData"
+      [options]="radarChartOptions"
+      [labels]="radarChartLabels"
+      [chartType]="radarChartType"
+      class="radio"
+    ></canvas>
+  </div>
+
+  <div class="chartjs-container ondas">
+    <canvas
+      baseChart
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [options]="lineChartOptions"
+      [colors]="lineChartColors"
+      [legend]="lineChartLegend"
+      [chartType]="lineChartType"
+      [plugins]="lineChartPlugins"
+      (chartHover)="chartHovered($event)"
+      (chartClick)="chartClicked($event)"
+    ></canvas>
+  </div>
+</div>
+
+
+<div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Ventas</th>
+            <th scope="col">Devoluciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Cali</td>
+            <td>50</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Bogota</td>
+            <td>70</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Medellin</td>
+            <td>70</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+      </table>
+</div>

@@ -1,0 +1,14 @@
+.canvas{
+    position: relative;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.radio{
+    width: 50%;
+}
+
+.ondas{
+    width: 50%;
+}
